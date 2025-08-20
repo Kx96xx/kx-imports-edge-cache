@@ -1,0 +1,16 @@
+{
+  "compatibility_date": "2025-04-01",
+  "main": "src/index.ts",
+  "name": "kx-imports-edge-cache",
+  "upload_source_maps": true,
+  "observability": {
+    "enabled": true
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "kx-cache-db",
+      "database_id": "0eb22edb-e1dc-4903-9345-1ca8fffbd662"
+    }
+  ]
+}
